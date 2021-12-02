@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+=============
+Project Name: INFO151_HW1_zs359
+Project Description: Initial construction of my “About” webpage
+Date : 10/06/2021
+Author :Zivai Sinemani
+… : …
+=============
+-->
+<html>
+    <head>
+         <!-- zs359: #1 title tag --> 
+         <!--zs359: my company name might change over time.-->
+        <title>
+            About_ZivGlobalTrader_INFO151_HW1_zs359
+        </title>
+        <style>
+            
+
+            *{
+                font-family: fantasy;
+                font-size: xx-large;
+                text-align: center;
+
+            }
+
+            .headings{
+                font-family: fantasy;
+                font-size: xx-large;
+                width: 50%;   /* == 400px * .5 = 200px */
+                height: 25%;  /* == 160px * .25 = 40px */
+                margin: 20%;   /* == 400px * .05 = 20px */
+                padding: 3%;  /* == 400px * .05 = 20px */
+                background: cyan;
+                text-align: center;
+
+            }
+            img {
+                border-radius: 80px;
+
+            }
+            .tablestyle{
+                
+                width: 100%;
+                border: 10px solid #ddd;
+                padding: 8px;
+                
+
+
+            }
+            .img2 {
+                border-radius: 80px;
+                width: 80%;
+            }
+            .tooltip {
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dotted black;
+            }
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 200px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+
+            /* Position the tooltip */
+                position: absolute;
+                z-index: 1;
+            }
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+            }
+            .body1 {
+                background: beige;
+                }
+
+            section {
+                display: block;
+                width: 400px;
+                height: 160px;
+                background: lightgray;
+               }
+
+            
+        </style>
+    </head>
+    
+    <body style="background-color:DodgerBlue;">
+        <a id="top"></a>
+      <!--zs359: #2 Heading tag.-->
+      <div class="headings">
+        <h1><u>About Us.</u></h1></div>
+      <!--zs359: #6 Paragraph texts explaining our core values as a company-->
+        <p>Ziv Global is a trading signal provider registered in Delaware, USA. Unlike our competitors we are an honest buisness and want the best for you as beginner or experienced traders. Our trading strategies are diverse and flexible such that you can choose a style that suits your trading personality. Our Core values are to have Zeal, Integrity and Value in the market. </p>
+        <p><b>Our Vision:</b> To break the stigma that all forex signal providers are a scam. To bring top quality signals that ensure overall profitability for our clients.</p>
+        <p><b>Our Mission:</b>To strive for financial freedom, trading in the zone instead of against the market.</p>
+        
+      <!--zs359: #4a Image for ZivGlobal-->
+        <img src="ZivGlobal.jpg" alt="zivglobal_logo">
+        <!--zs359:#3a link to my competitors sight-->
+        <p><a href="https://fxmindbuilders.com/">Competitors</a></p>
+          <!--zs359: #4b Image for example of chart patterns, enla-->
+          <a href="https://www.tradingview.com/">      
+          <!--zs359: This is an elarged photo-->        
+        <img class="img2" src="Charts.bmp" alt="chart_picture">
+        </a>
+        <h2><u>Our Services:</u></h2>
+        <!--zs359 #5a: An ordered list to talk about the different services we offer.-->
+           <ol>
+            <li><b><u>Intraday Signals:</u></b></li>
+            These signals are based on the M1, M5 and M15 chart. We will send a minimum of 5 signals per day from currency pairs like : GPBUSD, EURUSD, GBPJPY, USDCHF and USDZAR.
+            <li><b><u>Swing Trading Signals:</u></b></li>
+            These signals are based on the H1, H4, D1 and M1 chart. We will send a minimum of 3 signals per day from currency pairs like : CHFJPY, EURNZD, AUDUSD, AUDNZD, NZDUSD.
+            <li><b><u>Account Management:</u></b></li>
+            Don't have time to trade? Do not worry we can trade for you under the agreement that we keep 20% of the profits made.
+            <li><b><u>Trading Education:</u></b></li>
+            Don't know how to trade? Fear not, we have expert traders willing to take the time to educate you.
+        </ol>
+        <!--zs359 #7: A table to compare prices of each of our services.-->
+        <h2><u>Prices:</u></h2>
+        <table style="width:100%" class="tablestyle">
+
+            <tr>
+              <th>Intraday Signals</th>
+              <th>Swinger Signals</th>
+              <th>Education</th>
+              <th>Account Management</th>
+            </tr>
+            <tr>
+              <td>
+                  <ol>5-10 Signals Daily.</ol>
+                  <ol>90% Win Rate.</ol>
+                  <ol>Market Analysis.</ol>
+                  <ol>Price: $35/Month.</ol>
+              </td>
+              <td>
+                <ol>3-5 Signals Daily.</ol>
+                <ol>90% Win Rate.</ol>
+                <ol>Market Analysis</ol>
+                <ol>Price: $35/Month</ol>
+              </td>
+              <td>
+                <ol>10 Modules.</ol>
+                <ol>5 hrs long.</ol>
+                <ol>World Class Education.</ol>
+                <ol>Price: $500</ol>
+              </td>
+              <td>
+                <ol>Min Balance: $100,000</ol>
+                <ol>Profit Split: 80/20</ol>
+                <ol>Price: $50</ol>
+              </td>
+            </tr>
+          </table>
+
+
+          <!--zs359: #2 Heading tag-->
+        <h2>  <u>Contact Us: </u> </h2>
+
+        <div class="tooltip">Hover over this for our phone number. 
+            <span class="tooltiptext">+16466914454</span>
+          </div>
+      
+        <p>You can reach us via email : zivglobaltrader@gmail.com</p>
+          <!--zs359: #3 Back to top link-->
+          <a href="#top">Back to top of page</a>
+          <!--Same page hyperlink.-->
+          <p>
+            This <a href="About2.html" target="_blank">hyperlink</a> will open in a new tab.
+          </p>
+
+    </body>
+</html>
